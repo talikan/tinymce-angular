@@ -1,0 +1,6 @@
+<span *ngIf="editable; else readonlyBlock">
+  <ng-content></ng-content>
+</span>
+<ng-template #readonlyBlock>
+  {{readOnlyContent}}
+</ng-template>

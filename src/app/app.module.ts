@@ -4,9 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { EditorModule } from '../../tinymce-angular-component/src/editor/editor.module';
+import { NgContentTestComponent } from './ng-content-test/ng-content-test.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, NgContentTestComponent],
   imports: [BrowserModule, EditorModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
